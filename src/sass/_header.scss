@@ -66,17 +66,17 @@
       @include breakpoint(desktop) {
         background-image: $bg-gradient,
         //   url(../assets/images/library-desk-1x.jpg);
-
+        
         @media (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
           (min-resolution: 2dppx) {
           background-image: $bg-gradient,
-            // url(../assets/images/library-desk-2x.jpg);
-        }
+        //     // url(../assets/images/library-desk-2x.jpg);
+        // }
       }
     }
-  }
 }
+
 
 .logo {
   display: flex;
@@ -248,3 +248,4 @@
     fill: #fff;
   }
 }
+  }
