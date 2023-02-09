@@ -217,23 +217,6 @@
   }
 }
 
-.header-login-button {
-  @include animate-active();
-}
-
-.change-theme {
-  &__btn {
-    position: absolute;
-    right: 65px;
-    bottom: 5px;
-
-    background-color: initial;
-    align-content: center;
-    border: none;
-    text-align: center;
-    border-radius: 5px;
-    padding: 8px 12px;
-
     @include breakpoint(tablet) {
       right: 100px;
       top: auto;
@@ -249,5 +232,4 @@
     fill: #fff;
   }
 }
-  }
-}
+  
