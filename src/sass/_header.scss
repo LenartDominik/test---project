@@ -44,25 +44,25 @@
       }
     }
 
-    &_library {
-    //   background-image: $bg-gradient, url(../assets/images/library-mob-1x.jpg);
+    // &_library {
+    //   background-image: $bg-gradient, url(../src/images/library-mob-1x.jpg);
 
-      @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        // background-image: $bg-gradient, url(../assets/images/library-mob-2x.jpg);
-      }
+    //   @media (min-device-pixel-ratio: 2),
+    //     (min-resolution: 192dpi),
+    //     (min-resolution: 2dppx) {
+    //     background-image: $bg-gradient, url(../src/images/library-mob-2x.jpg);
+    //   }
 
-      @include breakpoint(tablet) {
-        // background-image: $bg-gradient, url(../assets/images/library-tab-1x.jpg);
+    //   @include breakpoint(tablet) {
+    //     background-image: $bg-gradient, url(../src/images/library-tab-1x.jpg);
 
-        @media (min-device-pixel-ratio: 2),
-          (min-resolution: 192dpi),
-          (min-resolution: 2dppx) {
-          background-image: $bg-gradient,
-            // url(../assets/images/library-tab-2x.jpg);
-        }
-      }
+    //     @media (min-device-pixel-ratio: 2),
+    //       (min-resolution: 192dpi),
+    //       (min-resolution: 2dppx) {
+    //       background-image: $bg-gradient,
+    //         url(../src/images/library-tab-2x.jpg);
+    //     }
+    //   }
 
       @include breakpoint(desktop) {
         background-image: $bg-gradient,
@@ -159,7 +159,6 @@
   &__item {
     color: #000000;
   }
-}
 
 .search-form {
   @include animate-active();
