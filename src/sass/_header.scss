@@ -152,16 +152,6 @@
   }
 }
 
-.change-lang {
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-  background-color: transparent;
-  color: #ffffff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-
   @include breakpoint(tablet) {
     right: 50px;
     top: auto;
@@ -222,7 +212,7 @@
       right: 100px;
       top: auto;
     }
-  }
+
   &__btn-dark {
     display: none;
   }
