@@ -8,13 +8,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    }
 
     @include breakpoint(tablet) {
       height: 216px;
     }
 
     &_home {
-      background-image: $bg-gradient, url(..images/home-mob-1x.jpg);
+      background-image: $bg-gradient, url(../images/home-mob-1x.jpg);
 
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -231,5 +232,4 @@
     width: 18px;
     fill: #fff;
   }
-}
   
