@@ -106,8 +106,7 @@ textarea {
   }
 }
 .header_home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.337254902), rgba(0, 0, 0, 0.337254902)), url("src/images/home-mob-1x.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.337254902), rgba(0, 0, 0, 0.337254902)), url("../images/home-mob-1x.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.337254902), rgba(0, 0, 0, 0.337254902)), url(../src/images/home-mob-1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header_home {
@@ -126,7 +125,7 @@ textarea {
 }
 @media screen and (min-width: 1024px) {
   .header_home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.337254902), rgba(0, 0, 0, 0.337254902)), url(../images/home-desk-1x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.337254902), rgba(0, 0, 0, 0.337254902)), url("../images/home-desk-1x.jpg");
   }
 }
 @media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
